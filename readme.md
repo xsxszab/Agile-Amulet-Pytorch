@@ -1,3 +1,3 @@
 ## Agile Amulet for salient object detection
 
-not finished yet.
+Not finished yet, but network structure part under ./model is completed.
