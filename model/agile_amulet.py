@@ -226,6 +226,7 @@ class Agile_Amulet(nn.Module):
 
 
     def forward(self, x):
+        # get features from different layers
         x1 = self.vgg.conv1.forward(x)
         x2 = self.vgg.conv2.forward(x1)
         x3 = self.vgg.conv3.forward(x2)
